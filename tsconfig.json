@@ -5,6 +5,7 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+    "types": ["next-auth", "@auth/firebase-adapter"],
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -18,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@logos/*": ["./images/logos/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
