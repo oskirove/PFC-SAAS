@@ -2,10 +2,10 @@ import PricingCards from "@/components/ui/PricingCards";
 
 function PricingPage() {
     return (
-        <div className="isolate overflow-hidden bg-gray-900">
+        <div className="isolate overflow-hidden bg-zinc-900">
             <div className="mx-auto max-w-7xl px-6 pt-24 text-center sm:pt-32 lg:px-8">
                 <div className="mx-auto max-w-4xl">
-                    <h2 className="text-base font-semibold leading-7 text-indigo-400">
+                    <h2 className="text-base font-semibold leading-7 text-orange-400">
                         Planes
                     </h2>
                     <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
@@ -31,8 +31,8 @@ function PricingPage() {
                         />
                         <defs>
                             <radialGradient id="radial-gradient">
-                                <stop stopColor="#7775D6" />
-                                <stop offset={1} stopColor="#E935C1" />
+                                <stop stopColor="#FF1D1F" />
+                                <stop offset={1} stopColor="#AB0329" />
                             </radialGradient>
                         </defs>
                     </svg>

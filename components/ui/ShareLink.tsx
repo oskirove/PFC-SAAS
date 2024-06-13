@@ -72,7 +72,7 @@ function ShareLink({
             <DialogTitle>Share Link</DialogTitle>
             <DialogDescription>
                 Cualquier usuario que haya sido{" "}
-                <span className="text-indigo-600 font-bold">invitado</span>{" "}
+                <span className="text-orange-600 font-bold">invitado</span>{" "}
                 puede utilizar este enlace
             </DialogDescription>
         </DialogHeader>

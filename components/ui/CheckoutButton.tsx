@@ -52,16 +52,16 @@ function CheckoutButton() {
                 <>
                     <hr className="mt-5"/>
 
-                    <p className="pt-5 text-center text-xs text-indigo-600">
+                    <p className="pt-5 text-center text-xs text-orange-600">
                         Ya estas suscrito al plan PRO
                     </p>
                 </>
             )}
 
             <div className="
-              mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold
-              leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline
-              focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600
+              mt-8 block rounded-md bg-orange-600 px-3.5 py-2 text-center text-sm font-semibold
+              leading-6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline
+              focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600
               cursor-pointer disabled:opacity-80"
             >
                 {isSubscribed ? (

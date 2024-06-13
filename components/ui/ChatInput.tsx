@@ -87,7 +87,7 @@ function ChatInput({ chatId }: { chatId: string }) {
             <Form {...form}>
                 <form
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className="flex space-x-2 p-2 rounded-t-xl max-w-4xl mx-auto bg-white border dark:bg-slate-800"
+                    className="flex space-x-2 p-2 rounded-t-xl max-w-4xl mx-auto bg-white border dark:bg-zinc-800"
                 >
                     <FormField
                         control={form.control}
@@ -105,7 +105,7 @@ function ChatInput({ chatId }: { chatId: string }) {
                             </FormItem>
                         )}
                     />
-                    <Button type="submit" className="bg-violet-600 text-white">
+                    <Button type="submit" className="bg-orange-600 text-white">
                         Enviar
                     </Button>
                 </form>

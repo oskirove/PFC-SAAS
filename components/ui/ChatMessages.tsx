@@ -36,7 +36,7 @@ function ChatMessages({
     <div className="p-5 ">
         {!loading && messages?.length === 0 && (
             <div className="flex flex-col justify-center text-center items-center p-20 rounded-xl space-y-2
-             bg-indigo-400 text-white ">
+             bg-orange-400 text-white ">
                 <MessageCircleIcon className="w-10 h-10"/>
 
                 <h2>
@@ -58,8 +58,8 @@ function ChatMessages({
                     <div 
                     className={`flex flex-col relative space-y-2 p-4 w-fit line-clamp-1 mx-2 rounded-3xl ${
                         isSender
-                        ? "ml-auto bg-violet-600 text-white rounded-br-none"
-                        : "bg-gray-100 dark:text-gray-100 dark:bg-slate-700 rounded-bl-none"
+                        ? "ml-auto bg-orange-600 text-white rounded-br-none"
+                        : "bg-zinc-100 dark:text-zinc-100 dark:bg-zinc-700 rounded-bl-none"
                     }`}
                     >
                         <p
