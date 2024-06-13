@@ -30,20 +30,14 @@ export const authOptions: NextAuthOptions = {
                 token.sub = user.id;
             }
             return token;
-        },
-
-        async redirect({ url, baseUrl }) {
-            return url.startsWith(baseUrl) ? url : baseUrl;
-        },
+        }
     },
 
     session: {
         strategy: 'jwt',
     },
 
-    adapter: FirestoreAdapter(adminDb) as Adapter,
+    adapter: FirestoreAdapter(adminDb) as Adapter
+    
+} satisfies NextAuthOptions;
 
-    secret: process.env.NEXTAUTH_SECRET,
-};
-
-export default authOptions;
