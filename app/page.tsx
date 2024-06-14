@@ -29,7 +29,7 @@ export default async function Home() {
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">¡Conéctate y Chatea sin Límites!</h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Conoce a gente de cualquier parte del mundo.{" "}
+                Conecta con gente de cualquier parte del mundo.{" "}
                 <span className="text-orange-600 dark:text-orange-500">
                   ¡Deja que la IA se encargue de la traducción!
                 </span>
